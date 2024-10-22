@@ -3,7 +3,7 @@
 on:
   push:
     # Only build on main or master branch
-    branches: [main, master]
+    branches: '**'
   # Or when triggered manually
   workflow_dispatch: {}
 
